@@ -1,9 +1,12 @@
-export const WEEK = Object.freeze([
-  { dayOftheWeek: '월', prder: 1 },
-  { dayOftheWeek: '화', prder: 2 },
-  { dayOftheWeek: '수', prder: 3 },
-  { dayOftheWeek: '목', prder: 4 },
-  { dayOftheWeek: '금', prder: 5 },
-  { dayOftheWeek: '토', prder: 6 },
-  { dayOftheWeek: '일', prder: 7 },
+export const WEEK = Object.freeze(['월', '화', '수', '목', '금', '토', '일']);
+
+export const HOLIDAY = Object.freeze([
+  '1월 1일',
+  '3월 1일',
+  '5월 5일',
+  '6월 6일',
+  '8월 15일',
+  '10월 3일',
+  '10월 9일',
+  '12월 25일',
 ]);
